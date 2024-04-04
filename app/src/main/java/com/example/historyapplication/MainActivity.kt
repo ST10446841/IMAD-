@@ -47,22 +47,20 @@ class MainActivity : AppCompatActivity() {
 
 
                 }else if (age == 25){
-                    tvResult.text =
+                    tvResult.text = "Angus Cloud died at the age of ${age.toString()}"
 
 
                 }else if (age == 51){
-                    tvResult.text = "You are the same age as Leonardo DaVinci when he painted his most famous +" +
-                            "painting, The Mona Lisa."
+                    tvResult.text = "You are the same age as Carl Wilson when he passed away"
 
 
                 }else if (age == 41){
-                    tvResult.text = "When Christopher Columbus was ${age.toString()} just like you, he made his +" +
-                            "first successful voyage to The United States of America."
+                    tvResult.text = "When Kobe Bryant was ${age.toString()} just like you, he sadly passed away + " +\
+                            "due to a helicopter crash."
 
 
                 }else if (age == 43){
-                    tvResult.text = "When Adolf Hitler was ${age.toString()} just like you, he was given +" +
-                            "the title of being Chancellor by Hindenburg, in 1933."
+                    tvResult.text = "When Billy Miller was ${age.toString()} just like you,he passed away."
 
 
                 }else if (age == 81){
@@ -70,13 +68,11 @@ class MainActivity : AppCompatActivity() {
 
 
                 }else if (age == 45){
-                    tvResult.text = "Mahatma Gandhi was ${age.toString()} years old when he first started +" +
-                            "his protest against descrimination and excessive land-tax in India."
+                    tvResult.text = "Freddie Mercury was ${age.toString()} years old when he passed away."
 
 
                 }else if (age == 75){
-                    tvResult.text = "You are the same age as Nelson Mandela when he became the first non-White +" +
-                            "Head of State in the history of South Africa."
+                    tvResult.text = "You are the same age as Tom Wilkinson when he passed away."
 
                 }else{
                     tvResult.text = "No Historical facts were found for the age entered."
